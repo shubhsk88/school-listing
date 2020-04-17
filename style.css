@@ -109,6 +109,15 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+.primary {
+  background-color: var(--primary);
+}
+.grey {
+  background-color: grey;
+}
+.blue {
+  background-color: aliceblue;
+}
 
 .steps__title {
   padding: 3rem 0;
@@ -148,4 +157,35 @@ body {
 }
 .steps__details {
   text-align: center;
+}
+
+.section-benefits {
+  margin-top: 4rem;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.benefit__container {
+  color: black;
+  display: flex;
+
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  height: 30rem;
+}
+.benefits__img {
+  height: 100%;
+  border-radius: 100%;
+}
+.benefit__content {
+  padding: 10rem 5rem;
+}
+.benefit__content > * {
+  padding: 1rem 0;
+}
+
+.benefit__button {
+  padding: 1rem 2rem;
+  border: none;
 }
