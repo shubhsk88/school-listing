@@ -103,3 +103,49 @@ body {
   border-radius: 10px;
 }
 
+.section-steps {
+  margin-top: 4rem;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+.steps__title {
+  padding: 3rem 0;
+  color: var(--primary);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+  height: 90vh;
+  padding: 2rem 0;
+}
+
+.grid {
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+}
+.grid-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-steps {
+  font-size: 6rem;
+}
+.steps__header {
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+.steps__details {
+  text-align: center;
+}
