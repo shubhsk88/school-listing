@@ -24,6 +24,7 @@ a {
   background-color: #d4574a;
   height: 10rem;
   display: flex;
+
   align-items: center;
   justify-content: space-between;
 }
@@ -120,4 +121,158 @@ a {
   background: white;
 
   border-radius: 10px;
+}
+.results {
+  width: 80%;
+  margin: 10rem auto;
+}
+
+.results h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+.grid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 20px;
+}
+
+.grid-items {
+  width: 40rem;
+  height: 50rem;
+
+  background: #d85e4b;
+  border-radius: 10px;
+}
+.grid-items h3 {
+  text-align: center;
+  margin-top: 15rem;
+  color: white;
+  font-size: 4rem;
+}
+
+/* Footer Section */
+
+.footer {
+  width: 100vw;
+}
+.footer__main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+
+  color: white;
+}
+
+.list {
+  width: 80%;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 2rem;
+  padding: 2rem 3rem;
+  height: 10rem;
+}
+.list__items a,
+.list__icon a {
+  text-decoration: none;
+  color: white;
+}
+
+.list__items {
+  padding: 1rem 4rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  border-top: 2px solid rgb(90, 85, 85);
+  border-bottom: 2px solid rgb(90, 85, 85);
+}
+.list__icon {
+  /* margin: 3rem 0rem; */
+  text-align: center;
+  height: 10rem;
+  width: 12rem;
+  margin-top: -2rem;
+  position: relative;
+  font-size: 4rem;
+  /* margin-bottom: 5rem; */
+  border-radius: 100%;
+  border: 2px solid rgb(90, 85, 85);
+}
+.list__icon a {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.footer__flex {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__flex > * {
+  flex: 1;
+  margin: 3rem 0rem;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.common__header {
+  padding: 2rem 0;
+}
+
+.form__subscribe {
+  width: 70%;
+  display: flex;
+}
+.form__subscribe input {
+  flex: 0 0 70%;
+  padding: 1rem 0;
+  background-color: rgb(34, 31, 31);
+  border: none;
+}
+
+.subscribe__button {
+  flex: 1;
+  border: none;
+  background-color: rgb(94, 91, 91);
+}
+.contact__details {
+  padding: 0.5rem 0;
+}
+
+.about__details {
+  width: 60%;
+  text-align: center;
+}
+.contact a,
+.about__details a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.footer__copyright {
+  height: 10rem;
+  background-color: #1f1f1f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social__container {
+  list-style: none;
+  display: flex;
+  font-size: 2rem;
+}
+.social__container a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.copyright {
+  color: white;
+  padding: 1rem;
 }
