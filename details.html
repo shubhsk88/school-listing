@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="details.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="details.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -51,27 +50,47 @@
     <main class="main">
       <section class="container">
         <div class="container__title">
-          ST.Peter
+          <i class="fas fa-university"></i> ST.Peter
         </div>
         <div class="grid">
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
+          <div class="grid-item">Type:</div>
+          <div class="grid-item">
+            Level: <span class="blue">Kindergarten</span>
+          </div>
+          <div class="grid-item">System:</div>
+          <div class="grid-item">Gender: <span class="blue">female</span></div>
+          <div class="grid-item">
+            country: <span class="blue">Namibia</span>
+          </div>
+          <div class="grid-item">
+            email: <span class="blue">peter@st.com</span>
+          </div>
+          <div class="grid-item">
+            residence: <span class="blue">boarding</span>
+          </div>
+          <div class="grid-item">performance: <span class="blue">B+</span></div>
         </div>
         <div class="apply">
           <button class="apply__button">Apply</button>
         </div>
         <ul class="detail__list">
-          <li>Tell</li>
-          <li>Transport</li>
-          <li>help</li>
-          <li>blah</li>
-          <li>blah</li>
+          <li><i class="fas blue fa-phone-alt"></i>Tell</li>
+          <li>
+            <i class="fas blue fa-bus"></i>Transport:
+            <span class="blue">Yes</span>
+          </li>
+          <li>
+            <i class="fas fa-desktop"></i> Website:
+            <span class="blue">st.com</span>
+          </li>
+          <li>
+            <i class="fas fa-users"></i> Students Enrolled:
+            <span class="blue">870</span>
+          </li>
+          <li>
+            <i class="fas fa-money-bill-alt"></i> Student Support:
+            <span class="blue">Yes</span>
+          </li>
         </ul>
       </section>
       <div class="about">
@@ -81,10 +100,11 @@
         quibusdam sint vitae non.
       </div>
       <div class="details">
-        Click to view MOre details
+        <a href="#"> <i class="fas fa-bars"></i> Click to view MOre details </a>
       </div>
+
       <div class="map__direction">
-        Map Direction
+        <i class="far fa-compass"></i> Map Direction
       </div>
       <div class="map"></div>
       <iframe
@@ -98,68 +118,68 @@
       ></iframe>
     </main>
     <footer class="footer">
-      <div class="footer__main">
-        <ul class="list">
-          <li class="list__items"><a href="#">Home</a></li>
-          <li class="list__items"><a href="#">Search</a></li>
-          <li class="list__items"><a href="#">About us</a></li>
-          <li class="list__items"><a href="#">Advertise</a></li>
-          <li class="list__icon">
-            <a href="#"> <i class="fas fa-map-marker-alt"></i></a>
-          </li>
-          <li class="list__items"><a href="#">facebook</a></li>
-          <li class="list__items"><a href="#">Twitter</a></li>
-          <li class="list__items"><a href="#">blog</a></li>
-          <li class="list__items"><a href="#">google+</a></li>
-        </ul>
-
-        <div class="footer__flex">
-          <div class="subscribe">
-            <h2 class="common__header">Subscribe</h2>
-            <form action="#" class="form__subscribe">
-              <input type="text" />
-              <button class="subscribe__button">Send</button>
-            </form>
-          </div>
-          <div class="contact">
-            <h2 class="common__header">Contact</h2>
-            <div class="contact__details">Have a question or submission</div>
-            <a href="#">info@pataku.com</a>
-          </div>
-          <div class="about">
-            <h2 class="common__header">About</h2>
-            <span class="about__details"
-              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit a
-              nisi quam rem non nam id dignissimos, qui distinctio ipsam enim
-              ipsa asperiores numquam perferendis unde quisquam, eius iusto cum.
-              <a href="#">Learn more</a>
-            </span>
+        <div class="footer__main">
+          <ul class="list">
+            <li class="list__items"><a href="#">Home</a></li>
+            <li class="list__items"><a href="#">Search</a></li>
+            <li class="list__items"><a href="#">About us</a></li>
+            <li class="list__items"><a href="#">Advertise</a></li>
+            <li class="list__icon">
+              <a href="#"> <i class="fas fa-map-marker-alt"></i></a>
+            </li>
+            <li class="list__items"><a href="#">facebook</a></li>
+            <li class="list__items"><a href="#">Twitter</a></li>
+            <li class="list__items"><a href="#">blog</a></li>
+            <li class="list__items"><a href="#">google+</a></li>
+          </ul>
+  
+          <div class="footer__flex">
+            <div class="subscribe">
+              <h2 class="common__header">Subscribe</h2>
+              <form action="#" class="form__subscribe">
+                <input type="text" />
+                <button class="subscribe__button">Send</button>
+              </form>
+            </div>
+            <div class="contact">
+              <h2 class="common__header">Contact</h2>
+              <div class="contact__details">Have a question or submission</div>
+              <a href="#">info@pataku.com</a>
+            </div>
+            <div class="about">
+              <h2 class="common__header">About</h2>
+              <span class="about__details"
+                >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit a
+                nisi quam rem non nam id dignissimos, qui distinctio ipsam enim
+                ipsa asperiores numquam perferendis unde quisquam, eius iusto cum.
+                <a href="#">Learn more</a>
+              </span>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="footer__copyright">
-        <ul class="social__container">
-          <li class="social__icon">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-          </li>
-          <li class="social__icon">
-            <a href=""><i class="fab fa-twitter"></i></a>
-          </li>
-          <li class="social__icon">
-            <a href=""><i class="fab fa-wordpress"></i></a>
-          </li>
-          <li class="social__icon">
-            <a href=""><i class="fab fa-google-plus-g"></i></a>
-          </li>
-          <li class="social__icon">
-            <a href=""><i class="fab fa-instagram-square"></i></a>
-          </li>
-        </ul>
-        <div class="copyright">
-          Copyright 2020 by Shubham Singh Etherum Bitcoin Private Limited
-          <span>Join me on the journey </span>
+        <div class="footer__copyright">
+          <ul class="social__container">
+            <li class="social__icon">
+              <a href=""><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="social__icon">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="social__icon">
+              <a href=""><i class="fab fa-wordpress"></i></a>
+            </li>
+            <li class="social__icon">
+              <a href=""><i class="fab fa-google-plus-g"></i></a>
+            </li>
+            <li class="social__icon">
+              <a href=""><i class="fab fa-instagram-square"></i></a>
+            </li>
+          </ul>
+          <div class="copyright">
+            Copyright 2020 by Shubham Singh Etherum Bitcoin Private Limited
+            <span>Join me on the journey </span>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
   </body>
 </html>
