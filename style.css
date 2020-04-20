@@ -17,13 +17,18 @@ a {
 
 body {
   font-size: 1.4rem;
-  width: 98vw;
+  width: 100%;
   font-family: 'roboto', serif;
+}
+
+#search:focus,
+.search__button:focus {
+  outline: none;
 }
 
 .header {
   background-color: #d4574a;
-  height: 10rem;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -43,9 +48,14 @@ body {
 }
 .nav__links {
   display: flex;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
 }
-
+.nav__links:hover {
+  background: white;
+  color: var(--primary);
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2);
+}
 .icon {
   padding: 0 1rem;
 }
@@ -63,12 +73,12 @@ body {
   text-transform: uppercase;
 }
 .section__container {
-  margin-top: 12rem;
+  margin-top: 10rem;
   width: 60%;
 }
 .search__header {
-  padding: 2rem 0;
-  font-size: 4rem;
+  padding: 1rem 0;
+  font-size: 3.5rem;
 }
 
 .form__container {
@@ -76,7 +86,7 @@ body {
   width: 100%;
   padding: 3rem 4rem 5rem;
   border-radius: 10px;
-  margin: 3rem;
+  margin: 3rem 0;
 }
 .form__container label {
   color: black;
@@ -86,9 +96,19 @@ body {
   display: flex;
 }
 #search {
-  width: 70%;
-  padding: 1rem 0;
+  width: 60%;
+  padding: 1rem 1rem;
+  transition: all 0.3s ease-in;
 }
+.title__bold {
+  font-size: 3.4rem;
+  color: var(--primary);
+}
+
+#search:focus {
+  width: 80%;
+}
+
 .search__button {
   padding: 1rem 3rem;
   background-color: var(--primary);
@@ -309,4 +329,19 @@ body {
 .copyright {
   color: white;
   padding: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav__bar-title {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav {
+    align-self: center;
+  }
 }
