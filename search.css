@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #d4574a;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  width: 100vw;
+  font-family: 'roboto', serif;
+}
+.header {
+  background-color: #d4574a;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 5.4rem;
+  color: white;
+  padding-left: 3rem;
+}
+
+.nav {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  padding-right: 5rem;
+}
+.nav__bar {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.icon {
+  padding: 0 1rem;
+}
+.main {
+  margin-top: 6rem;
+}
+.search {
+  background: #eeeeee;
+  padding: 3rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.search h3 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+.search__options {
+  display: flex;
+  padding: 1rem;
+  flex: 1;
+  width: 100vw;
+  justify-content: center;
+}
+.search__container {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+
+.search__container label {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+}
+.search__container input,
+.search__container select {
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+}
+
+.search__container select {
+  appearance: button;
+}
+
+.search__container select:before {
+  position: absolute;
+  content: '';
+  width: 5rem;
+  height: 5rem;
+  top: 0;
+  left: 0;
+  background: green;
+}
+.search__container input:focus {
+  outline: none;
+}
+
+.search__button,
+.filter__button {
+  display: flex;
+  align-items: center;
+  padding: 2.9rem 0.5rem;
+}
+
+.search__button button,
+.filter__button button {
+  padding: 1rem 1.5rem;
+  border: none;
+  background: white;
+
+  border-radius: 10px;
+}
