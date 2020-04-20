@@ -16,6 +16,10 @@ body {
   width: 100vw;
   font-family: 'roboto', serif;
 }
+a {
+  text-decoration: none;
+  color: currentColor;
+}
 .header {
   background-color: #d4574a;
   height: 10rem;
@@ -36,7 +40,7 @@ body {
   color: white;
   padding-right: 5rem;
 }
-.nav__bar {
+.nav__links {
   display: flex;
   padding: 0 2rem;
 }
