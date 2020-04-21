@@ -7,6 +7,7 @@
 :root {
   --primary: #d4574a;
 }
+
 html {
   font-size: 62.5%;
 }
@@ -20,6 +21,7 @@ a {
   text-decoration: none;
   color: currentColor;
 }
+
 .header {
   background-color: #d4574a;
   height: 10rem;
@@ -41,6 +43,7 @@ a {
   color: white;
   padding-right: 5rem;
 }
+
 .nav__links {
   display: flex;
   padding: 0 2rem;
@@ -49,33 +52,38 @@ a {
 .icon {
   padding: 0 1rem;
 }
+
 .main {
   max-width: 900px;
   width: 100%;
   margin: 14rem auto;
 }
+
 .container {
   width: 100%;
   background: white;
-
   box-shadow: -2px 3px 5px -1px rgba(115, 102, 115, 0.8);
   padding: 4rem;
 }
+
 .container__title {
   font-size: 4rem;
   font-weight: 300;
   text-transform: uppercase;
   color: #e6a49e;
 }
+
 .grid {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4px;
 }
+
 .blue {
   color: #006eaa;
 }
+
 .grid-item {
   text-align: center;
   padding: 0.7rem 0;
@@ -84,11 +92,13 @@ a {
   border-radius: 4px;
   font-weight: bold;
 }
+
 .apply {
   display: flex;
   justify-content: flex-end;
   padding: 2rem 1rem;
 }
+
 .apply__button {
   padding: 1rem;
   border: none;
@@ -103,6 +113,7 @@ a {
 .apply__button:focus {
   outline: none;
 }
+
 .apply__button:active {
   transform: translateY(2px);
 }
@@ -112,26 +123,29 @@ a {
   list-style: none;
   justify-content: flex-end;
 }
+
 .detail__list li {
   padding: 0 0.8rem;
   text-transform: uppercase;
   font-weight: bold;
   border-left: 0.9px solid #dedbd8;
 }
+
 .about {
   padding: 3rem 0;
 }
+
 .details {
   width: 100%;
   margin: 0 auto;
   padding: 4rem 0;
   text-align: center;
-
   background: #eee;
   text-transform: uppercase;
   font-size: 3rem;
   letter-spacing: 10px;
 }
+
 .map__direction {
   padding: 4rem 0;
   text-align: center;
@@ -160,13 +174,11 @@ a {
   margin: 4rem auto;
   display: flex;
   justify-content: center;
-
   align-items: center;
 }
 
 .list-section {
   display: flex;
-
   justify-content: space-between;
   border-top: 2px solid rgb(90, 85, 85);
   border-bottom: 2px solid rgb(90, 85, 85);
@@ -183,11 +195,10 @@ a {
   text-transform: uppercase;
   font-size: 1.6rem;
 }
+
 .list__icon {
   text-align: center;
-
   padding: 2rem;
-
   background-color: black;
   text-align: center;
   font-size: 4rem;
@@ -200,11 +211,11 @@ a {
   display: flex;
   justify-content: space-around;
 }
+
 .footer__flex > * {
   flex: 1;
   margin: 3rem 0rem;
   display: flex;
-
   flex-direction: column;
   align-items: center;
 }
@@ -217,6 +228,7 @@ a {
   width: 70%;
   display: flex;
 }
+
 .form__subscribe input {
   flex: 0 0 70%;
   padding: 1rem 1rem;
@@ -231,6 +243,7 @@ a {
   color: white;
   background-color: rgb(94, 91, 91);
 }
+
 .contact__details {
   padding: 0.5rem 0;
 }
@@ -239,6 +252,7 @@ a {
   width: 60%;
   text-align: center;
 }
+
 .contact a,
 .about__details a {
   text-decoration: none;
@@ -258,6 +272,7 @@ a {
   display: flex;
   font-size: 2rem;
 }
+
 .social__container a {
   text-decoration: none;
   color: white;
@@ -278,9 +293,11 @@ a {
   .nav__bar-title {
     display: none;
   }
+
   .search__options {
     flex-direction: column;
   }
+
   .list__items {
     padding: 1rem;
     font-size: 1.4rem;
@@ -291,25 +308,32 @@ a {
   .header {
     flex-direction: column;
   }
+
   .nav {
     align-self: center;
   }
+
   .footer__flex {
     flex-direction: column;
   }
+
   .footer__copyright {
     flex-direction: column;
   }
+
   .list {
     flex-direction: column;
   }
+
   .list-section {
     border: none;
     border-top: 1px solid grey;
   }
+
   .list__icon {
     display: none;
   }
+
   .list__items {
     border-bottom: 1px solid grey;
   }
