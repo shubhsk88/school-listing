@@ -3,7 +3,7 @@
 This is the Website of the School Directory  inspired from the design in Behance
 
 
-![screenshot](https://github.com/shubhsk88/school-listing/blob/features/screenshot.png)
+![screenshot](https://github.com/shubhsk88/school-listing/blob/features/screen.png)
 
 ## Built With
 
