@@ -23,12 +23,7 @@ body {
   font-family: 'roboto', serif;
 }
 
-#search:focus,
-.search__button:focus,
-.benefit__button:focus,
-.form__subscribe input {
-  outline: none;
-}
+
 
 .header {
   background-color: #d4574a;
@@ -113,16 +108,6 @@ body {
 
 .search__container select {
   appearance: button;
-}
-
-.search__container select:before {
-  position: absolute;
-  content: '';
-  width: 5rem;
-  height: 5rem;
-  top: 0;
-  left: 0;
-  background: green;
 }
 
 .search__container input:focus {
@@ -298,7 +283,6 @@ body {
   margin: 4rem auto;
   display: flex;
   justify-content: center;
-
   align-items: center;
 }
 
@@ -339,7 +323,7 @@ body {
 
 .footer__flex > * {
   flex: 1;
-  margin: 3rem 0rem;
+  margin: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -390,6 +374,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#search:focus,
+.search__button:focus,
+.benefit__button:focus,
+.form__subscribe input {
+  outline: none;
 }
 
 .social__container {
