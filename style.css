@@ -62,6 +62,7 @@ body {
   padding: 0 1rem;
 }
 
+/* Main Section */
 .main {
   color: white;
 }
@@ -289,17 +290,7 @@ body {
   border-radius: 100%;
   border: 2px solid rgb(90, 85, 85);
 }
-/* .advertise {
-  padding-right: 5rem;
-}
-.facebook {
-  padding-left: 5rem;
-} */
-/* .list__icon a {
-  position: absolute;
-  top: 25%;
-  left: 35%;
-} */
+
 
 .footer__flex {
   margin-top: 2rem;

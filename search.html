@@ -49,7 +49,9 @@
     </header>
     <main class="main">
       <section class="search">
-        <div class="search__header"><h3>Filter By Name,Country</h3></div>
+        <div class="search__header">
+          <h3>Filter By Name,Country,Education System, School Level</h3>
+        </div>
         <div class="search__options">
           <div class="search__container">
             <label for="name">School Name</label>
@@ -58,15 +60,16 @@
           <div class="search__container">
             <label for="country">Country Name</label>
             <select id="country">
-              <option value="1">Level 1`</option>
-              <option value="2">Level 2</option>
+              <option value="1">Africa`</option>
+              <option value="2">Korea</option>
             </select>
           </div>
           <div class="search__container">
             <label for="level"> Level</label>
             <select id="level">
-              <option value="1">Level 1`</option>
-              <option value="2">Level 2</option>
+              <option value="1">Kindergarten</option>
+              <option value="2">Primary</option>
+              <option value="3">Secondary</option>
             </select>
           </div>
           <div class="search__container">
@@ -86,20 +89,20 @@
           <div class="search__container">
             <label for="curriculum"> curriculum</label>
             <select id="curriculum">
-              <option value="1">Level 1`</option>
-              <option value="2">Level 2</option>
+              <option value="1">CBSE</option>
+              <option value="2">ICSE</option>
             </select>
           </div>
           <div class="search__button">
-            <button type="submit">Seaarch</button>
+            <button type="submit">Search</button>
           </div>
           <div class="filter__button">
-            <button>Clear Filters</button>
+            <button><i class="far fa-edit"></i> Clear Filters</button>
           </div>
         </div>
       </section>
       <section class="results">
-        <h2>Search Result Found 7 Schools</h2>
+        <h3>Search Result Found 7 School(s)</h3>
         <div class="grid">
           <div class="grid-items">
             <h3>Name:demo One</h3>
@@ -115,19 +118,23 @@
     </main>
     <footer class="footer">
       <div class="footer__main">
-        <ul class="list">
-          <li class="list__items"><a href="#">Home</a></li>
-          <li class="list__items"><a href="#">Search</a></li>
-          <li class="list__items"><a href="#">About us</a></li>
-          <li class="list__items"><a href="#">Advertise</a></li>
-          <li class="list__icon">
+        <div class="list">
+          <div class="list-section">
+            <div class="list__items"><a href="#">Home</a></div>
+            <div class="list__items"><a href="#">Search</a></div>
+            <div class="list__items"><a href="#">About us</a></div>
+            <div class="list__items advertise"><a href="#">Advertise</a></div>
+          </div>
+          <div class="list__icon">
             <a href="#"> <i class="fas fa-map-marker-alt"></i></a>
-          </li>
-          <li class="list__items"><a href="#">facebook</a></li>
-          <li class="list__items"><a href="#">Twitter</a></li>
-          <li class="list__items"><a href="#">blog</a></li>
-          <li class="list__items"><a href="#">google+</a></li>
-        </ul>
+          </div>
+          <div class="list-section">
+            <div class="list__items"><a href="#">facebook</a></div>
+            <div class="list__items"><a href="#">Twitter</a></div>
+            <div class="list__items"><a href="#">blog</a></div>
+            <div class="list__items"><a href="#">google+</a></div>
+          </div>
+        </div>
 
         <div class="footer__flex">
           <div class="subscribe">
@@ -156,24 +163,23 @@
       <div class="footer__copyright">
         <ul class="social__container">
           <li class="social__icon">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
           </li>
           <li class="social__icon">
-            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
           </li>
           <li class="social__icon">
-            <a href=""><i class="fab fa-wordpress"></i></a>
+            <a href="#"><i class="fab fa-wordpress"></i></a>
           </li>
           <li class="social__icon">
-            <a href=""><i class="fab fa-google-plus-g"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
           </li>
           <li class="social__icon">
-            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
           </li>
         </ul>
         <div class="copyright">
-          Copyright 2020 by Shubham Singh Etherum Bitcoin Private Limited
-          <span>Join me on the journey </span>
+          &copy; Copyright 2020 by Shubham Singh, Jaylee Privated Limited
         </div>
       </div>
     </footer>
