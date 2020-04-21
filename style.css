@@ -295,6 +295,11 @@ body {
   border: 2px solid rgb(90, 85, 85);
 }
 
+.search__button,
+.subscribe__button {
+  cursor: pointer;
+}
+
 #search:focus,
 .search__button:focus,
 .benefit__button:focus,
@@ -306,11 +311,6 @@ body {
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
-}
-
-.search__button,
-.subscribe__button{
-  cursor: pointer;
 }
 
 .footer__flex > * {
