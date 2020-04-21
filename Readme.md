@@ -14,7 +14,7 @@ This is the Website of the School Directory  inspired from the design in Behance
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/shubhsk88/newsweek-clone/8a5cd75a781d7eb3c202d0d54e209e002d985d74/index.html)
+[Live Demo](https://rawcdn.githack.com/shubhsk88/school-listing/bf6f42bb5f78af485262798a42c7a7317d59adda/)
 
 ## Authors
 
@@ -27,6 +27,7 @@ This is the Website of the School Directory  inspired from the design in Behance
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+
 
 Feel free to check the [issues page](issues/).
 
