@@ -291,7 +291,6 @@ body {
   border: 2px solid rgb(90, 85, 85);
 }
 
-
 .footer__flex {
   margin-top: 2rem;
   display: flex;
@@ -436,5 +435,18 @@ body {
   }
   .footer__copyright {
     flex-direction: column;
+  }
+  .list {
+    flex-direction: column;
+  }
+  .list-section {
+    border: none;
+    border-top: 1px solid grey;
+  }
+  .list__icon {
+    display: none;
+  }
+  .list__items {
+    border-bottom: 1px solid grey;
   }
 }
