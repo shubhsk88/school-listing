@@ -163,18 +163,101 @@ body {
 }
 
 .grid-items {
-  padding: 10rem 5rem;
-  height: 50rem;
-  width: 40rem;
-  place-items: center;
-  background: #d85e4b;
   border-radius: 10px;
 }
-.grid-items h3 {
-  text-align: center;
 
-  color: white;
-  font-size: 4rem;
+.card {
+  perspective: 150rem;
+  position: relative;
+  height: 52rem;
+}
+.card__side {
+  color: #fff;
+  height: 52rem;
+  font-size: 2rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+.card__side--front {
+  background-color: #fff;
+}
+.card__side--back {
+  transform: rotateY(180deg);
+  background-image: linear-gradient(to right bottom, #f08276, #8f2f20);
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0deg);
+}
+.card__picture {
+  background-size: cover;
+  background-blend-mode: screen;
+  overflow: hidden;
+  height: 23rem;
+  background-image: url(https://bit.ly/3auPVTU);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.card__logo {
+  width: 10%;
+  right: 3%;
+  top: 40%;
+  position: absolute;
+}
+
+.card__details {
+  padding: 3rem;
+}
+.card__details h3 {
+  font-size: 2rem;
+  margin: 0 auto;
+  color: black;
+}
+.card__details ul {
+  list-style: none;
+  width: 80%;
+  margin: 0 auto;
+}
+.card__details ul li {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: black;
+}
+.card__button {
+  font-size: 1.7rem;
+  padding: 2rem 3rem;
+  border: none;
+  border-radius: 100px;
+  color: rgb(73, 73, 73);
+  transition: all 0.3s;
+}
+.card__button:active {
+  transform: translateY(3px);
+}
+.card__button:focus {
+  outline: none;
+}
+.card__details ul li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.card__cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
 }
 
 /* Footer Section */
