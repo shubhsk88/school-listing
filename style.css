@@ -222,7 +222,6 @@ body {
 }
 
 .benefit__container {
-  color: black;
   display: flex;
   color: white;
   justify-content: space-between;
