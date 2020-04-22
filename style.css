@@ -25,10 +25,10 @@ body {
 
 .header {
   background-color: #d4574a;
-  
   align-items: center;
   justify-content: space-between;
 }
+
 .flex{
   display: flex;
 }
@@ -420,7 +420,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .header,.footer__flex,.footer__copyright,.list {
+  .header, .footer__flex, .footer__copyright, .list {
     flex-direction: column;
   }
 
@@ -454,7 +454,6 @@ body {
   #search:focus {
     width: 100%;
   }
-
   
   .list-section {
     border: none;

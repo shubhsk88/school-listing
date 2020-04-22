@@ -24,18 +24,19 @@ body {
 }
 
 .header {
-  background-color: #d4574a;
-  
+  background-color: #d4574a;  
   align-items: center;
   justify-content: space-between;
 }
+
 .flex{
   display: flex;
 }
 
-input:focus,select:focus{
+input:focus, select:focus{
   outline:none;
 }
+
 .logo {
   font-size: 5.4rem;
   color: white;
@@ -319,7 +320,7 @@ input:focus,select:focus{
 }
 
 @media only screen and (max-width: 768px) {
-  .header,.footer__flex,.footer__copyright,.list {
+  .header, .footer__flex, .footer__copyright, .list {
     flex-direction: column;
   }
 
