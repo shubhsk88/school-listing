@@ -444,13 +444,15 @@ body {
     margin-top: 6rem;
   }
 
-  .benefit__title{
+  .benefit__title {
     font-size: 1.6rem;
   }
-  .benefit__details{
+
+  .benefit__details {
     font-size: 1rem;
   }
-  .benefit__button{
+
+  .benefit__button {
     padding: 0.5rem;
   }
   
@@ -476,9 +478,10 @@ body {
     border-top: 1px solid grey;
   }
 
- .list__icon {
+  .list__icon {
     display: none;
   }
+  
   .benefits__img{
     height:70%;
   }
