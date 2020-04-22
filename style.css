@@ -448,14 +448,14 @@ body {
     font-size: 1.6rem;
   }
 
+  .benefit__button {
+    padding: 0.5rem;
+  }
+
   .benefit__details {
     font-size: 1rem;
   }
 
-  .benefit__button {
-    padding: 0.5rem;
-  }
-  
   .form__container {
     margin-top: 0;
     padding: 1rem;
