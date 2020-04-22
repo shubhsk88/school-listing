@@ -29,11 +29,11 @@ body {
   justify-content: space-between;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-input:focus, select:focus{
+input:focus, select:focus {
   outline:none;
 }
 
@@ -412,7 +412,10 @@ input:focus, select:focus{
 }
 
 @media only screen and (max-width: 768px) {
-  .header, .footer__flex, .footer__copyright, .list {
+  .header,
+  .footer__flex,
+  .footer__copyright,
+  .list {
     flex-direction: column;
   }
 
