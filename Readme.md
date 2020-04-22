@@ -14,7 +14,7 @@ This is the Website of the School Directory  inspired from the design in Behance
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/shubhsk88/school-listing/685a0f1b217521514909ee350450d5e8d373be4b/index.html)
+[Live Demo](https://rawcdn.githack.com/shubhsk88/school-listing/e4733c3fe578655753c359e59449755806a3050e/index.html)
 
 ## Authors
 
