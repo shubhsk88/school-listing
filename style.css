@@ -25,9 +25,12 @@ body {
 
 .header {
   background-color: #d4574a;
-  display: flex;
+  
   align-items: center;
   justify-content: space-between;
+}
+.flex{
+  display: flex;
 }
 
 .logo {
@@ -37,14 +40,12 @@ body {
 }
 
 .nav {
-  display: flex;
   font-size: 2rem;
   color: white;
   padding-right: 5rem;
 }
 
 .nav__links {
-  display: flex;
   padding: 1rem 2rem;
   border-radius: 10px;
 }
@@ -69,7 +70,6 @@ body {
   height: 80vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url('./img/background.jpg');
   background-size: cover;
-  display: flex;
   justify-content: center;
   text-transform: uppercase;
 }
@@ -98,7 +98,6 @@ body {
 
 .search__container-flex {
   margin-top: 1rem;
-  display: flex;
 }
 
 #search {
@@ -124,7 +123,6 @@ body {
 }
 
 .button__container {
-  display: flex;
   justify-content: center;
 }
 
@@ -194,7 +192,6 @@ body {
   width: 70%;
   margin: 0 auto;
   padding: 2rem 5rem;
-  display: flex;
   align-items: center;
 }
 
@@ -222,7 +219,6 @@ body {
 }
 
 .benefit__container {
-  display: flex;
   color: white;
   justify-content: space-between;
   padding: 2rem;
@@ -252,7 +248,6 @@ body {
 
 /* Footer */
 .footer__main {
-  display: flex;
   flex-direction: column;
   background-color: black;
   color: white;
@@ -262,13 +257,11 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 4rem auto;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .list-section {
-  display: flex;
   justify-content: space-between;
   border-top: 2px solid rgb(90, 85, 85);
   border-bottom: 2px solid rgb(90, 85, 85);
@@ -309,7 +302,6 @@ body {
 
 .footer__flex {
   margin-top: 2rem;
-  display: flex;
   justify-content: space-around;
 }
 
@@ -327,7 +319,6 @@ body {
 
 .form__subscribe {
   width: 70%;
-  display: flex;
 }
 
 .form__subscribe input {
@@ -370,7 +361,6 @@ body {
 
 .social__container {
   list-style: none;
-  display: flex;
   font-size: 2rem;
 }
 
@@ -430,7 +420,7 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  .header {
+  .header,.footer__flex,.footer__copyright,.list {
     flex-direction: column;
   }
 
@@ -465,18 +455,7 @@ body {
     width: 100%;
   }
 
-  .footer__flex {
-    flex-direction: column;
-  }
-
-  .footer__copyright {
-    flex-direction: column;
-  }
-
-  .list {
-    flex-direction: column;
-  }
-
+  
   .list-section {
     border: none;
     border-top: 1px solid grey;
