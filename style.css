@@ -20,7 +20,7 @@ a {
 body {
   font-size: 1.4rem;
   width: 100%;
-  font-family: 'roboto', serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 .header {
@@ -67,7 +67,7 @@ body {
 }
 
 .section-search {
-  height: 80vh;
+  height: 80rem;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url('./img/background.jpg');
   background-size: cover;
   justify-content: center;
@@ -75,7 +75,7 @@ body {
 }
 
 .section__container {
-  margin-top: 10rem;
+  margin-top: 25rem;
   width: 60%;
 }
 
@@ -432,7 +432,6 @@ body {
   }
 
   .search__header {
-    font-size: 3rem;
     text-align: center;
     padding: 0.3rem 0;
   }
@@ -441,6 +440,20 @@ body {
     width: 95%;
   }
 
+  .section-steps{
+    margin-top: 6rem;
+  }
+
+  .benefit__title{
+    font-size: 1.6rem;
+  }
+  .benefit__details{
+    font-size: 1rem;
+  }
+  .benefit__button{
+    padding: 0.5rem;
+  }
+  
   .form__container {
     margin-top: 0;
     padding: 1rem;
@@ -462,9 +475,12 @@ body {
     border: none;
     border-top: 1px solid grey;
   }
-  
+
  .list__icon {
     display: none;
+  }
+  .benefits__img{
+    height:70%;
   }
 
   .list__items {
