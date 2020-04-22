@@ -12,24 +12,30 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  font-size: 1.4rem;
-  font-family: 'roboto', serif;
-}
-
 a {
   text-decoration: none;
-  color: currentColor;
+  color: inherit;
+}
+
+body {
+  font-size: 1.4rem;
+  width: 100%;
+  font-family: 'roboto', serif;
 }
 
 .header {
   background-color: #d4574a;
-  height: 10rem;
-  display: flex;
+  
   align-items: center;
   justify-content: space-between;
 }
+.flex{
+  display: flex;
+}
 
+input:focus,select:focus{
+  outline:none;
+}
 .logo {
   font-size: 5.4rem;
   color: white;
@@ -37,20 +43,27 @@ a {
 }
 
 .nav {
-  display: flex;
   font-size: 2rem;
   color: white;
   padding-right: 5rem;
 }
 
 .nav__links {
-  display: flex;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.nav__links:hover {
+  background: white;
+  color: var(--primary);
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.2);
 }
 
 .icon {
   padding: 0 1rem;
 }
+
+/* Main Section */
 
 .main {
   max-width: 900px;
@@ -93,7 +106,6 @@ a {
 }
 
 .apply {
-  display: flex;
   justify-content: flex-end;
   padding: 2rem 1rem;
 }
@@ -118,7 +130,6 @@ a {
 }
 
 .detail__list {
-  display: flex;
   list-style: none;
   justify-content: flex-end;
 }
@@ -160,7 +171,6 @@ a {
 
 /* Footer Section */
 .footer__main {
-  display: flex;
   flex-direction: column;
   background-color: black;
   color: white;
@@ -170,13 +180,11 @@ a {
   max-width: 1200px;
   width: 100%;
   margin: 4rem auto;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .list-section {
-  display: flex;
   justify-content: space-between;
   border-top: 2px solid rgb(90, 85, 85);
   border-bottom: 2px solid rgb(90, 85, 85);
@@ -203,9 +211,20 @@ a {
   border: 2px solid rgb(90, 85, 85);
 }
 
+.search__button,
+.subscribe__button {
+  cursor: pointer;
+}
+
+#search:focus,
+.search__button:focus,
+.benefit__button:focus,
+.form__subscribe input {
+  outline: none;
+}
+
 .footer__flex {
   margin-top: 2rem;
-  display: flex;
   justify-content: space-around;
 }
 
@@ -223,7 +242,6 @@ a {
 
 .form__subscribe {
   width: 70%;
-  display: flex;
 }
 
 .form__subscribe input {
@@ -266,7 +284,6 @@ a {
 
 .social__container {
   list-style: none;
-  display: flex;
   font-size: 2rem;
 }
 
@@ -302,24 +319,12 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  .header {
+  .header,.footer__flex,.footer__copyright,.list {
     flex-direction: column;
   }
 
   .nav {
     align-self: center;
-  }
-
-  .footer__flex {
-    flex-direction: column;
-  }
-
-  .footer__copyright {
-    flex-direction: column;
-  }
-
-  .list {
-    flex-direction: column;
   }
 
   .list-section {
