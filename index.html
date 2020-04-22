@@ -2,8 +2,226 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <title>Patashule Your Working directory</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header flex">
+      <div class="logo"><a href="./"> PataShule</a></div>
+      <nav class="nav flex">
+        <div class="nav__bar">
+          <a href="./search.html" class="nav__links flex">
+            <div class="icon"><i class="fas fa-search"></i></div>
+
+            <span class="nav__bar-title">Schools</span>
+          </a>
+        </div>
+
+        <div class="nav__bar">
+          <a href="./" class="nav__links flex">
+            <div class="icon"><i class="far fa-user"></i></div>
+            <div class="nav__bar-title">About</div>
+          </a>
+        </div>
+        <div class="nav__bar">
+          <a href="./" class="nav__links flex">
+            <div class="icon"><i class="fas fa-rss"></i></div>
+            <div class="nav__bar-title">Blog</div>
+          </a>
+        </div>
+        <div class="nav__bar">
+          <a href="./" class="nav__links flex">
+            <div class="icon"><i class="fas fa-bars"></i></div>
+            <div class="nav__bar-title">More</div>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section-search flex">
+        <div class="section__container">
+          <h1 class="search__header">
+            <span class="title__bold">PataShule...</span>
+            Your Gateway to schools in Norway
+          </h1>
+          <form class="form__container" action="#">
+            <label for="search">Search By Keyboard</label>
+            <div class="search__container-flex flex">
+              <input type="text" id="search" />
+              <button class="search__button">Search</button>
+            </div>
+          </form>
+          <div class="button__container flex">
+            <button class="button__how">How it works</button>
+          </div>
+        </div>
+      </section>
+      <section class="section-steps">
+        <h1 class="steps__title">
+          Pata Shule works in four simple steps.
+        </h1>
+        <div class="grid-container">
+          <div class="grid flex">
+            <div class="grid-items flex">
+              <div class="icon-steps"><i class="far fa-newspaper"></i></div>
+              <div class="steps__header"><h2>1-Search</h2></div>
+              <div class="steps__details">
+                It's simple. On pata shule homepage, enter the name of a school
+                you are looking for an click on search.Alternatively click on
+                the search link on the top menu to view the list of all schools.
+              </div>
+            </div>
+          </div>
+          <div class="grid flex">
+            <div class="grid-items flex">
+              <div class="icon-steps">
+                <i class="fas fa-map-marked-alt"></i>
+              </div>
+              <div class="steps__header"><h2>2-locate</h2></div>
+              <div class="steps__details">
+                Get to see where the school is located by clicking on the school
+                profile. It's even more exciting. You can get the directions
+                from anywhere in the country
+              </div>
+            </div>
+          </div>
+          <div class="grid flex">
+            <div class="grid-items flex">
+              <div class="icon-steps"><i class="fas fa-clipboard"></i></div>
+              <div class="steps__header"><h2>3-apply</h2></div>
+              <div class="steps__details">
+                Apply for your child's interview to the school of your choice.
+                Click on the APPLY button to get the application form. We also
+                follow up on the application to make sure you get reply on time
+              </div>
+            </div>
+          </div>
+          <div class="grid flex">
+            <div class="grid-items flex">
+              <div class="icon-steps">
+                <i class="fas fa-umbrella-beach"></i>
+              </div>
+              <div class="steps__header"><h2>4-Relax</h2></div>
+              <div class="steps__details">
+                Once your child gets admitted.You can now relaax, You can can
+                check out blog to see what we recommend when school hunting
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-benefits">
+        <div class="benefit__container  flex primary">
+          <div class="benefit__content">
+            <h2 class="benefit__title">
+              Over 10,000 schools registered with us
+            </h2>
+            <div class="benefit__details">
+              Find a school by using our filtered search engine
+            </div>
+            <button class="benefit__button">Find a school</button>
+          </div>
+          <img class="benefits__img" src="img/nat-1.jpg" alt="Benefits" />
+        </div>
+        <div class="benefit__container grey flex">
+          <div class="benefit__content">
+            <h2 class="benefit__title">
+              No need to take 3 Mstatus to find a school in the country
+            </h2>
+            <div class="benefit__details">
+              Just press or click on the search button and You're all set
+            </div>
+            <button class="benefit__button">Find a school near you</button>
+          </div>
+          <img class="benefits__img" src="img/nat-1.jpg" alt="Benefits" />
+        </div>
+        <div class="benefit__container blue flex">
+          <div class="benefit__content">
+            <h2 class="benefit__title">
+              Anytime Anywhere Any way!
+            </h2>
+            <div class="benefit__details">
+              Very convienent platforms that cut across any device including our
+              mobile ready web app and our mobile app coming soon to your app
+              store.
+            </div>
+          </div>
+          <img class="benefits__img" src="img/nat-1.jpg" alt="Benefits" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__main flex">
+        <div class="list flex">
+          <div class="list-section flex">
+            <div class="list__items"><a href="#">Home</a></div>
+            <div class="list__items"><a href="#">Search</a></div>
+            <div class="list__items"><a href="#">About us</a></div>
+            <div class="list__items advertise"><a href="#">Advertise</a></div>
+          </div>
+          <div class="list__icon">
+            <a href="#"> <i class="fas fa-map-marker-alt"></i></a>
+          </div>
+          <div class="list-section flex">
+            <div class="list__items"><a href="#">facebook</a></div>
+            <div class="list__items"><a href="#">Twitter</a></div>
+            <div class="list__items"><a href="#">blog</a></div>
+            <div class="list__items"><a href="#">google+</a></div>
+          </div>
+        </div>
+
+        <div class="footer__flex flex">
+          <div class="subscribe">
+            <h2 class="common__header">Subscribe</h2>
+            <form action="#" class="form__subscribe flex">
+              <input type="text" />
+              <button class="subscribe__button">Send</button>
+            </form>
+          </div>
+          <div class="contact">
+            <h2 class="common__header">Contact</h2>
+            <div class="contact__details">Have a question or submission</div>
+            <a href="#">info@pataku.com</a>
+          </div>
+          <div class="about">
+            <h2 class="common__header">About</h2>
+            <span class="about__details"
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit a
+              nisi quam rem non nam id dignissimos, qui distinctio ipsam enim
+              ipsa asperiores numquam perferendis unde quisquam, eius iusto cum.
+              <a href="#">Learn more</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <ul class="social__container flex">
+          <li class="social__icon">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="social__icon">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="social__icon">
+            <a href="#"><i class="fab fa-wordpress"></i></a>
+          </li>
+          <li class="social__icon">
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </li>
+          <li class="social__icon">
+            <a href="#"><i class="fab fa-instagram-square"></i></a>
+          </li>
+        </ul>
+        <div class="copyright">
+          &copy; Copyright 2020 by Shubham Singh, Jaylee Privated Limited
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
